@@ -1,0 +1,23 @@
+.container{
+  background-color: black;
+
+
+
+}
+.invitacion{
+  background-color: yellow;
+
+}
+
+.juego{
+  background-color: green;
+  height: 400px;
+}
+.laboral{
+  background-color: red;
+  height: 1000px;
+}
+.personal{
+  background-color: green;
+  height: 400px;
+}
