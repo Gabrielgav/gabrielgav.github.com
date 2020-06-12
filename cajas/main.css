@@ -1,0 +1,106 @@
+body {
+    background-color: wheat;
+    border: solid;
+    padding: 10px;
+}
+
+.container {
+    background-color: darkgreen;
+    border: solid;
+    height: 100%;
+}
+
+.welcome {
+    background-color: yellow;
+    border: solid;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+    /*align-items: center;*/
+}
+
+.presentation {
+    background-color: gray;
+    border: solid;
+    height: 500px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    justify-content: space-around
+}
+
+.jobs {
+    background-color: blue;
+    border: solid;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hobbies {
+    background-color: hotpink;
+    border: solid;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {
+    background-color: rgb(128, 105, 255);
+    border: solid;
+    height: 400px;
+    width: 50%;
+    /*margin: auto;*/
+}
+
+.polaroid {
+    background-color: hotpink;
+    border: solid;
+    height: 400px;
+    width: 17%;
+    /*margin: auto;*/
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    position: relative;
+}
+
+.job {
+    background-color: rgb(255, 253, 105);
+    border: solid;
+    height: 18%;
+    width: 80%;
+}
+
+.hobbie {
+    background-color: darkcyan;
+    border: solid;
+    height: 400px;
+    width: 30%;
+}
+
+
+/*Ver de que manera poner mejor los titulos*/
+
+span {
+    text-align: center;
+}
+
+
+/*Ver como hacer que la foto quede en relacion al cuadro*/
+
+.comienzo {
+    border: solid;
+    background-color: grey;
+    /*position: relative;*/
+    width: 90%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /*margin-right: 17%;*/
+}
